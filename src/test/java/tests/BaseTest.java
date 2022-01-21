@@ -8,7 +8,7 @@ import utils.PropertyReader;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public abstract class BaseTest {
+public class BaseTest {
     String email, password;
 
     @BeforeMethod
